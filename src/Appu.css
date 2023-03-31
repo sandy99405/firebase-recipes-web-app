@@ -1,0 +1,18 @@
+.title-row {
+    display: flex;
+    width: 70rem;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: #fff;
+    align-items: center;
+  }
+.title-row .title {
+    color: #4c4c4c;
+    font-size: 4rem;
+  }
+
+
+.form-title {
+  color: #4c4c4c;
+}
