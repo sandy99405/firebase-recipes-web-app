@@ -1,7 +1,7 @@
 /* import logo from './logo.svg'; */
 import './App.css';
 /* import firebase from './FirebaseConfig'; */
-import './App1.css'
+/* import './App1.css' */
 
 function App() {
   return (
