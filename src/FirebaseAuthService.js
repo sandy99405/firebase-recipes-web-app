@@ -1,4 +1,4 @@
-import  firebase from "firebase/compat/app";
+/* import  firebase from "firebase/compat/app"; */
 import {auth,googleAuthProvider} from './FirebaseConfig';
 import { createUserWithEmailAndPassword, onAuthStateChanged, sendPasswordResetEmail, signInWithEmailAndPassword, signInWithPopup, signOut } from "firebase/auth";
 
@@ -25,8 +25,8 @@ const loginWithGoogle = async () =>{
 }
 
 
-const subscribeToAuthChanges = (handleAuthChange) =>{
-    auth.onAuthStateChanged((user) =>{
+const subscribeToAuthChanges = async (handleAuthChange) =>{
+     onAuthStateChanged((user) =>{
         handleAuthChange(user);
     });
 }
