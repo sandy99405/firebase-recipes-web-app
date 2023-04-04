@@ -1,6 +1,8 @@
 import {initializeApp} from "firebase/app";
 import {getAuth,GoogleAuthProvider} from "firebase/auth";
+import firebase from 'firebase/compat/app'
 /* import {getFirestore} from "firebase/firestore"; */
+
 
 const config ={
   apiKey: process.env.REACT_APP_API_KEY, 
@@ -11,6 +13,10 @@ const config ={
   appId: process.env.REACT_APP_APP_ID, 
   measurementId: process.env.REACT_MEASUREMENT_ID,
 };
+
+if(!firebase.apps.length){
+    firebase.initializeApp(config);
+}
 
 const app = initializeApp(config);
 export const auth = getAuth(app);
