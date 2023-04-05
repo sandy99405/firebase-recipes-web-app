@@ -3,7 +3,7 @@ import { useState } from "react";
 import FirebaseAuthService from "../FirebaseAuthService";
 /* import { GoogleAuthProvider } from "firebase/auth"; */
 
-error
+
 function LoginForm({existingUser}){
     const [username,setUsername] = useState("");
     const [password,setPassword] = useState("");
