@@ -1,7 +1,7 @@
-/* import {initializeApp} from "firebase/app";
-import {getAuth,GoogleAuthProvider} from "firebase/auth"; */
+import {initializeApp} from "firebase/app";
+import {getAuth,GoogleAuthProvider} from "firebase/auth";
 import firebase from 'firebase/compat/app'
-/* import {getFirestore} from "firebase/firestore"; */
+import {getFirestore} from "firebase/firestore";
 
 
 const config ={
@@ -20,8 +20,8 @@ if(!firebase.apps.length){
 
 export default firebase;
 
-/* const app = initializeApp(config);
+const app = initializeApp(config);
 export const auth = getAuth(app);
-export const googleAuthProvider = new GoogleAuthProvider(); */
+export const googleAuthProvider = new GoogleAuthProvider();
 
-/* export const db = getFirestore(app); */
+export const db = getFirestore(app);
