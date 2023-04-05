@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import FirebaseAuthService from "../FirebaseAuthService";
-/* import { GoogleAuthProvider } from "firebase/auth"; */
+import { GoogleAuthProvider } from "firebase/auth";
 
 
 function LoginForm({existingUser}){
