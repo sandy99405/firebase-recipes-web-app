@@ -1,6 +1,6 @@
-import  firebase from "firebase/compat/app";
+/* import  firebase from "firebase/compat/app"; */
 import {auth,googleAuthProvider} from './FirebaseConfig';
-import { createUserWithEmailAndPassword, onAuthStateChanged, sendPasswordResetEmail, signInWithEmailAndPassword, signInWithPopup, signOut } from "firebase/auth";
+import { createUserWithEmailAndPassword,/*  onAuthStateChanged, */ sendPasswordResetEmail, signInWithEmailAndPassword, signInWithPopup, signOut } from "firebase/auth";
 
 
 
